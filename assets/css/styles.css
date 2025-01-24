@@ -9,22 +9,23 @@
   --btn-bg: hsl(0, 0%, 20%);
   --surface: hsl(0, 0%, 12%);
   --body-bg: hsl(0, 0%, 8%);
+  --hover-text-color: hsl(0, 0%, 8%);
 }
 
 body {
   font-family: "Inter", serif;
   background-color: var(--body-bg);
   height: 100vh;
-  color: white; 
+  color: var(--text-color); 
   text-align: center;
 }
 
 .profile {
   width: 90%;
-  max-width: 400px;
+  max-width: 450px;
   margin: 3rem auto 1rem auto;
   background-color: var(--surface);
-  border-radius: 10px;
+  border-radius: .625rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -41,18 +42,18 @@ body {
   object-fit: cover;
   margin-bottom: 1rem;
 }
-.profile h1 {
+.profile-title {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
-.profile p {
+.profile-bio {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: .7rem;
   letter-spacing: 0;
 }
-p.local {
+.profile-location {
   font-size: .875rem;
   font-weight: 300;
   color: var(--accent);
@@ -65,27 +66,31 @@ p.local {
   gap: 1rem;
   width: 100%;
 }
-.profile-links a {
+.profile-links .profile-link {
   display: block;
   width: 100%;
   background-color: var(--btn-bg);
   color: var(--text-color);
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: .3125rem;
   text-decoration: none;
   transition: background-color 0.3s; 
+  font-size: 1rem;
 
-  &:hover, &:focus {
-    background-color: var(--accent);
-    color: var(--body-bg);
-  }
+}
+.profile-links .profile-link:focus {
+  background-color: var(--accent);
+  color: var(--hover-text-color);
+}
 
+.profile-links .profile-link:hover {
+  background-color: var(--accent);
+  color: var(--hover-text-color);
 }
 
 
-
 .attribution { 
-  font-size: 11px; 
+  font-size: .6875rem; 
   text-align: center; 
   margin-bottom: 2rem;
 }
@@ -100,9 +105,7 @@ p.local {
   justify-content: center;
   height: 100vh;
    
+  }
+  .profile{ width: 100%;}
   
-  }
-  .profile {
-    width: 100%;
-  }
 }
