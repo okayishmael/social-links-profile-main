@@ -22,7 +22,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
  I join frontend Mentor to do the real world challenge to provide to learn and grow as a Front End Developer. This is Challenge number 3 of beginner's level.
 
 ### The challenge
-Build a responsive social profile landing page.
+Build a responsive social links profile landing page.
 
 Users should be able to:
 
@@ -35,12 +35,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Github Repository](https://your-solution-url.com)
-- Live Site URL: [My solution live site](https://your-live-site-url.com)
+- Solution URL: [Solution Github Repository](https://github.com/okayishmael/social-links-profile-main)
+- Live Site URL: [My solution live site](https://okayishmael.github.io/social-links-profile-main/)
 
 ## My process
 
-- First I go over design and design in figma.
+- First I go over design and design system files in figma.
 - Mobile first workflow.
 - Next add media query for larger screen sizes.
 
@@ -72,7 +72,7 @@ Users should be able to:
 ### Useful resources
 
 - [vs code on git  and github](https://youtu.be/i_23KUAEtUM) - This helped me successfully get my github and tought how to branch edit and merge back to main repository 
-- [Set GH pages for you a live site on github](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) - This is an amazing article which helped me finally understand how to set up gh pages on github
+- [Set GH pages for you a live site on github](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) - This is an amazing article which helped me finally understand how to set up gh pages on github.
 
 
 ## Author
