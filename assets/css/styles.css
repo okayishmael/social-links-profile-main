@@ -47,7 +47,7 @@ body {
   margin-bottom: 0.5rem;
 }
 .profile-bio {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   margin-bottom: .7rem;
   letter-spacing: 0;
@@ -107,6 +107,10 @@ body {
   }
   .profile{ 
     width: 100%;
-    max-width: 450px;}
+    max-width: 450px;
+  }
+  .profile-bio {
+    font-size: 1rem;
+  }
   
 }
